@@ -1,0 +1,110 @@
+# EESchema Netlist Version 1.1 created  Tue 08 Oct 2013 10:19:41 PM EDT
+(
+ ( /52545EE9 $noname  C4 C {Lib=C}
+  (    1 VDD )
+  (    2 VSS )
+ )
+ ( /52545EE0 $noname  C3 C {Lib=C}
+  (    1 VDD )
+  (    2 VSS )
+ )
+ ( /52545ED9 $noname  C2 C {Lib=C}
+  (    1 VDD )
+  (    2 VSS )
+ )
+ ( /52545ECF $noname  C1 0.1u {Lib=C}
+  (    1 VDD )
+  (    2 VSS )
+ )
+ ( /525454D3 $noname  U1 P8X32A-LQFP {Lib=P8X32A-LQFP}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 VSS )
+  (    6 ? )
+  (    7 ? )
+  (    8 VDD )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 VSS )
+  (   18 VDD )
+  (   19 ? )
+  (   20 ? )
+  (   21 ? )
+  (   22 ? )
+  (   23 ? )
+  (   24 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 VSS )
+  (   28 ? )
+  (   29 ? )
+  (   30 VDD )
+  (   31 ? )
+  (   32 ? )
+  (   33 ? )
+  (   34 ? )
+  (   35 ? )
+  (   36 ? )
+  (   37 ? )
+  (   38 ? )
+  (   39 VSS )
+  (   40 VDD )
+  (   41 ? )
+  (   42 ? )
+  (   43 ? )
+  (   44 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 20 "VSS" "VSS"
+ C4 2
+ C3 2
+ C2 2
+ C1 2
+ U1 5
+ U1 17
+ U1 39
+ U1 27
+Net 25 "VDD" "VDD"
+ U1 8
+ U1 30
+ U1 40
+ U1 18
+ C1 1
+ C4 1
+ C3 1
+ C2 1
+}
+#End

@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Tue 08 Oct 2013 03:42:17 PM EDT
+
+BeginCmp
+TimeStamp = /52545ECF;
+Reference = C1;
+ValeurCmp = 0.1u;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /52545ED9;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /52545EE0;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /52545EE9;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /525454D3;
+Reference = U1;
+ValeurCmp = P8X32A-LQFP;
+IdModule  = P8X32;
+EndCmp
+
+EndListe
